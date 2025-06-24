@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
               <BarChart3 className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">ReelAnalyzer</span>
+              <span className="text-xl font-bold text-gray-900">MarioAI</span>
             </Link>
             <p className="text-gray-600 text-sm">
               Advanced social media analytics platform for content creators and businesses.
@@ -57,7 +57,7 @@ export const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              © 2024 ReelAnalyzer. All rights reserved.
+              Designed and Developed by <a href="https://www.linkedin.com/in/mohdjarirnoorkhan/" className="text-blue-600 hover:text-blue-700 transition-colors">Mohd Jarir Khan</a>
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 text-sm transition-colors">Privacy Policy</a>

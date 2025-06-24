@@ -38,7 +38,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <BarChart3 className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform" />
-            <span className="text-xl font-bold text-gray-900">ReelAnalyzer</span>
+            <span className="text-xl font-bold text-gray-900">MarioAI</span>
           </Link>
 
           {/* Desktop Navigation */}

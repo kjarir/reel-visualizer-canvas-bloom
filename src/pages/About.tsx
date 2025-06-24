@@ -19,25 +19,25 @@ import { Link } from "react-router-dom";
 const About = () => {
   const team = [
     {
-      name: "Sarah Johnson",
+      name: "Abdullah Pathan",
       role: "CEO & Founder",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
       bio: "Former Head of Analytics at Meta with 10+ years in social media platforms."
     },
     {
-      name: "Michael Chen",
+      name: "Abdullah Pathan",
       role: "CTO",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       bio: "Ex-Google engineer specializing in machine learning and data analytics."
     },
     {
-      name: "Emily Rodriguez",
+      name: "Abdullah Pathan",
       role: "Head of Product",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
       bio: "Product strategist with expertise in creator economy and social platforms."
     },
     {
-      name: "David Kim",
+      name: "Abdullah Pathan",
       role: "VP of Engineering",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
       bio: "Full-stack developer and architect of scalable analytics platforms."

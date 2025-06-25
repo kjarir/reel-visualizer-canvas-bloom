@@ -79,7 +79,7 @@ const Index = () => {
             {/* Animated SplitText for the headline */}
             <SplitText
               text="Unlock the Power of Your Reels"
-              className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent text-black"
+              className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-black"
               splitType="words"
               delay={30}
               duration={0.6}

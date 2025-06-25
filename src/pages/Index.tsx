@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -20,6 +20,7 @@ import {
   Rocket,
   Star
 } from "lucide-react";
+import SplitText from "../components/SplitText";
 
 const Index = () => {
   const features = [
@@ -75,9 +76,15 @@ const Index = () => {
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Unlock the Power of Your Reels
-            </h1>
+            {/* Animated SplitText for the headline */}
+            <SplitText
+              text="Unlock the Power of Your Reels"
+              className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent text-black"
+              splitType="words"
+              delay={30}
+              duration={0.6}
+              ease="power3.out"
+            />
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Advanced analytics platform that helps content creators and businesses maximize their social media impact with AI-powered insights.
             </p>

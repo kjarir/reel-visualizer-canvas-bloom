@@ -378,7 +378,7 @@ const ContentGeneration = () => {
             )}
 
             {/* Debug/Test Section */}
-            <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+            {/* <div className="mt-8 p-4 bg-gray-50 rounded-lg">
               <h4 className="font-medium mb-2">Test API Connection</h4>
               <p className="text-sm text-gray-600 mb-3">
                 If content generation isn't working, try this test to check the API connection.
@@ -403,7 +403,7 @@ const ContentGeneration = () => {
               >
                 Test API Connection
               </Button>
-            </div>
+            </div> */}
           </CardContent>
         </Card>
       </div>

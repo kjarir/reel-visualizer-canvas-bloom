@@ -57,10 +57,10 @@ const Index = () => {
   ];
 
   const stats = [
-    { number: "10M+", label: "Reels Analyzed", icon: <Play className="h-5 w-5" /> },
-    { number: "50K+", label: "Active Users", icon: <Users className="h-5 w-5" /> },
-    { number: "99.9%", label: "Uptime", icon: <Clock className="h-5 w-5" /> },
-    { number: "150+", label: "Countries", icon: <Globe className="h-5 w-5" /> }
+    { number: "0", label: "Reels Analyzed", icon: <Play className="h-5 w-5" /> },
+    { number: "0", label: "Active Users", icon: <Users className="h-5 w-5" /> },
+    { number: "0", label: "Uptime", icon: <Clock className="h-5 w-5" /> },
+    { number: "0", label: "Countries", icon: <Globe className="h-5 w-5" /> }
   ];
 
   const platforms = [
@@ -79,8 +79,7 @@ const Index = () => {
             {/* Animated SplitText for the headline */}
             <SplitText
               text="Unlock the Power of Your Reels"
-              className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-black"
-              splitType="words"
+              className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text "
               delay={30}
               duration={0.6}
               ease="power3.out"
@@ -181,7 +180,7 @@ const Index = () => {
             <Button asChild size="lg" variant="secondary" className="hover:scale-105 transition-transform">
               <Link to="/register">Start Your Free Trial</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
+            <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
               <Link to="/pricing">View Pricing</Link>
             </Button>
           </div>

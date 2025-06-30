@@ -20,28 +20,22 @@ const About = () => {
   const team = [
     {
       name: "Abdullah Pathan",
-      role: "CEO & Founder",
+      role: "Co-Founder & CEO",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
-      bio: "Former Head of Analytics at Meta with 10+ years in social media platforms."
+      bio: "DevOps Engineer @Jio"
     },
     {
-      name: "Abdullah Pathan",
-      role: "CTO",
+      name: "Ankit Gupta",
+      role: "Co-Founder & CTO",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      bio: "Ex-Google engineer specializing in machine learning and data analytics."
+      bio: "SDE @Jio, B.Tech ECE @IIT Dhanbad"
     },
     {
-      name: "Abdullah Pathan",
-      role: "Head of Product",
+      name: "Khan Mohd Jarir",
+      role: "Developer",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-      bio: "Product strategist with expertise in creator economy and social platforms."
+      bio: "SDE @Google"
     },
-    {
-      name: "Abdullah Pathan",
-      role: "VP of Engineering",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-      bio: "Full-stack developer and architect of scalable analytics platforms."
-    }
   ];
 
   const values = [
@@ -69,37 +63,37 @@ const About = () => {
 
   const milestones = [
     {
-      year: "2020",
+      year: "2025",
       title: "Company Founded",
       description: "Started with a vision to democratize social media analytics for all creators."
     },
     {
-      year: "2021",
-      title: "1,000 Users",
-      description: "Reached our first thousand users within 6 months of launch."
+      year: "2025",
+      title: "Team Started",
+      description: "Team started working on the project."
     },
     {
-      year: "2022",
+      year: "2025",
       title: "AI Integration",
-      description: "Launched our AI-powered content optimization and trend prediction features."
+      description: "Started working on the AI integration."
     },
     {
-      year: "2023",
-      title: "50,000 Users",
-      description: "Expanded to support creators across Instagram, TikTok, YouTube, and Facebook."
+      year: "2025",
+      title: "First Version",
+      description: "First version of the app was released."
     },
     {
-      year: "2024",
-      title: "Global Expansion",
-      description: "Now serving creators in over 150 countries with enterprise-grade features."
+      year: "2025",
+      title: "Second Version",
+      description: "Second version of the app was released."
     }
   ];
 
   const stats = [
-    { number: "10M+", label: "Reels Analyzed", icon: <TrendingUp className="h-5 w-5" /> },
-    { number: "50K+", label: "Active Creators", icon: <Users className="h-5 w-5" /> },
-    { number: "150+", label: "Countries", icon: <Globe className="h-5 w-5" /> },
-    { number: "4.9/5", label: "User Rating", icon: <Star className="h-5 w-5" /> }
+    { number: "0", label: "Reels Analyzed", icon: <TrendingUp className="h-5 w-5" /> },
+    { number: "0", label: "Active Creators", icon: <Users className="h-5 w-5" /> },
+    { number: "0", label: "Countries", icon: <Globe className="h-5 w-5" /> },
+    { number: "0", label: "User Rating", icon: <Star className="h-5 w-5" /> }
   ];
 
   return (
@@ -242,7 +236,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow hover:scale-105 transform duration-200">
                 <CardHeader>
@@ -276,7 +270,7 @@ const About = () => {
             <Button asChild size="lg" variant="secondary" className="hover:scale-105 transition-transform">
               <Link to="/register">Start Free Trial</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
+            <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-blue-600 hover:scale-105 transition-all">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
